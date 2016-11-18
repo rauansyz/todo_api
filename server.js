@@ -10,7 +10,7 @@ var todoNextId = 1;
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-	res.send('Todo API Root');
+	res.send('Todo API Root!');
 });
 
 // GET /todos
